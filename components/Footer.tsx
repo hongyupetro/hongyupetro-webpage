@@ -40,7 +40,7 @@ export function Footer() {
           <p className="text-sm font-semibold text-white">Contact</p>
           <p className="mt-3 text-sm">
             Service hotline:{" "}
-            <a className="text-orange-400 hover:text-orange-300" href={`tel:${company.contact.hotline.replace(/-/g, "")}`}>
+            <a className="text-orange-400 hover:text-orange-300" href={`tel:${company.contact.hotline.replace(/[\s-]/g, "")}`}>
               {company.contact.hotline}
             </a>
           </p>

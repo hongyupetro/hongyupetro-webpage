@@ -53,9 +53,9 @@ export const company = {
   registeredAddress:
     "West side of Yanshan Road, Sangyuan Town, Wuqiao County, Cangzhou City, Hebei 061800, China",
   contact: {
-    hotline: "4001-588-518",
-    /** TODO: add export sales email once approved for publication. */
-    email: null as string | null,
+    /** Mainland China mobile — published for web inquiries. */
+    hotline: "+86 13603179619",
+    email: "hongyupetro@gmail.com",
   },
   toneNotes: [
     "Technical, direct, and factory-credible — avoid consumer-style superlatives.",

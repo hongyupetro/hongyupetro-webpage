@@ -32,7 +32,7 @@ export default function ContactPage() {
             <div>
               <dt className="font-medium text-slate-900">Service hotline</dt>
               <dd className="mt-1">
-                <a className="text-orange-600 hover:text-orange-500" href={`tel:${company.contact.hotline.replace(/-/g, "")}`}>
+                <a className="text-orange-600 hover:text-orange-500" href={`tel:${company.contact.hotline.replace(/[\s-]/g, "")}`}>
                   {company.contact.hotline}
                 </a>
               </dd>
